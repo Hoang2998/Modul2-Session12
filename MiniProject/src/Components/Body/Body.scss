@@ -1,0 +1,14 @@
+.body{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: silver;
+    padding-top: 150px;
+
+    .body--button{
+        font-weight: 600;
+    }
+    .body--button:hover{
+        // background-color: black;
+        color: aliceblue;
+    }
+}

@@ -1,0 +1,29 @@
+
+.header{
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    .header_find{
+        width: 80%;
+        input{
+            width: 60%;
+        }
+    }
+    .ul{
+        display: flex;
+        padding: 1rem;
+        li{
+            list-style: none;
+            padding: 1rem;
+        }
+        li:hover{
+           text-decoration: underline;
+        }
+    }
+}
